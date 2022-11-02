@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/config/HoodieAWSConfig.java">
+<error line="30" severity="info" message="Import javax.annotation.concurrent.Immutable appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="86" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/transaction/lock/DynamoDBBasedLockProvider.java">
+<error line="39" severity="info" message="Import org.apache.hudi.aws.credentials.HoodieAWSCredentialsProviderFactory appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="55" severity="info" message="Import javax.annotation.concurrent.NotThreadSafe appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/cloudwatch/CloudWatchReporter.java">
+<error line="76" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/utils/S3Utils.java">
+<error line="22" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient.java">
+<error line="69" severity="info" message="Import org.apache.hudi.common.util.MapUtils.isNullOrEmpty appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/HoodieGlueSyncException.java">
+<error line="24" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieConfigAWSCredentialsProvider.java">
+<error line="25" severity="info" message="Import org.apache.hudi.config.HoodieAWSConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="Import org.apache.hudi.common.util.StringUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="27" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/test/java/org/apache/hudi/aws/transaction/integ/ITTestDynamoDBBasedLockProvider.java">
+<error line="28" severity="info" message="Import org.apache.hudi.aws.transaction.lock.DynamoDBBasedLockProvider appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="info" message="Import java.util.Properties appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/test/java/org/apache/hudi/aws/cloudwatch/TestCloudWatchReporter.java">
+<error line="58" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/test/java/org/apache/hudi/aws/TestHoodieAWSCredentialsProviderFactory.java">
+<error line="22" severity="info" message="Import org.apache.hudi.config.HoodieAWSConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="info" message="Import org.apache.hudi.common.config.HoodieConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+</checkstyle>

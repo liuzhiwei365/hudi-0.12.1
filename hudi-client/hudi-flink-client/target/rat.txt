@@ -1,0 +1,80 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T04:41:29+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 54
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/io/storage/row/parquet/TestParquetSchemaConverter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/index/bloom/TestFlinkHoodieBloomIndex.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/client/common/TestHoodieFlinkEngineContext.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/testutils/HoodieFlinkWriteableTestTable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/test/java/org/apache/hudi/testutils/HoodieFlinkClientTestHarness.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/util/FlinkClientUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkConcatAndReplaceHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkMergeHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkCreateHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/MiniBatchHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/HoodieRowDataParquetWriteSupport.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/HoodieRowDataCreateHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/RowDataParquetWriteSupport.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/HoodieRowDataParquetWriter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/HoodieRowDataFileWriter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/parquet/ParquetSchemaConverter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/parquet/ParquetRowDataWriter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/storage/row/HoodieRowDataFileWriterFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkAppendHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/ExplicitWriteHandleFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkMergeAndReplaceHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/io/FlinkConcatHandle.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/upgrade/FlinkUpgradeDowngradeHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/ExplicitWriteHandleTable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkInsertPreppedCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/delta/FlinkUpsertPreppedDeltaCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/delta/BaseFlinkDeltaCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/delta/FlinkUpsertDeltaCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkInsertOverwriteCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkInsertCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkWriteHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkUpsertPreppedCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/BaseFlinkCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkDeleteHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkInsertOverwriteTableCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkDeleteCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkMergeHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/commit/FlinkUpsertCommitActionExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/action/compact/HoodieFlinkMergeOnReadTableCompactor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/HoodieFlinkTable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/HoodieFlinkMergeOnReadTable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/table/HoodieFlinkCopyOnWriteTable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/execution/ExplicitWriteHandler.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/execution/FlinkLazyInsertIterable.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/index/FlinkHoodieIndexFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/index/state/FlinkInMemoryStateIndex.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/index/FlinkHoodieIndex.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/client/HoodieFlinkWriteClient.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/client/clustering/plan/strategy/FlinkSizeBasedClusteringPlanStrategy.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/client/common/HoodieFlinkEngineContext.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/client/model/HoodieRowData.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/client/FlinkTaskContextSupplier.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-client/hudi-flink-client/src/main/java/org/apache/hudi/metadata/FlinkHoodieBackedTableMetadataWriter.java
+ 
+*****************************************************

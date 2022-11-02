@@ -1,0 +1,229 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T04:40:38+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 203
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/run_hoodie_streaming_app.sh
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/run_hoodie_app.sh
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/run_hoodie_generate_app.sh
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/resources/external-config/hudi-defaults.conf
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/resources/sql-statements.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/resources/exampleEvolvedSchema.txt
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/resources/exampleSchema.txt
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/resources/table-config.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestComplexKeyGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestTimestampBasedKeyGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestGlobalDeleteRecordGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestSimpleKeyGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestNonpartitionedKeyGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/factory/TestCreateKeyGeneratorByTypeWithFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/factory/TestHoodieSparkKeyGeneratorFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/keygen/TestCustomKeyGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/ColumnStatsIndexHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/TestQuickstartUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/TestDataSourceUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestHoodieSparkMergeOnReadTableClustering.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/SparkRDDWriteClientOverride.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestHoodieDatasetBulkInsertHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestBootstrap.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/TestOrcBootstrap.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/functional/HoodieSparkFunctionalTestSuite.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/testutils/DataSourceTestUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/org/apache/hudi/testutils/KeyGeneratorTestUtilities.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/HoodieJavaApp.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/HoodieJavaGenerateApp.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/java/HoodieJavaStreamingApp.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestConvertFilterToCatalystExpression.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestAvroConversionUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/ScalaAssertionSupport.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/util/TestPathUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestDataSourceDefaults.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestHoodieRelations.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestDataSourceOptions.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestHoodieSparkSqlWriter.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/SparkDatasetMixin.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestDataSkippingUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestTableSchemaResolverWithSparkSQL.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestHoodieSparkUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestMetadataTableWithSparkDataSource.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestCOWDataSourceStorage.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestEmptyCommit.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestStructuredStreaming.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestMORDataSource.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestDataSourceForBootstrap.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestColumnStatsIndex.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestMORDataSourceWithBucket.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestIncrementalReadWithFullTableScan.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestMORDataSourceStorage.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestLayoutOptimization.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestParquetColumnProjection.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestCOWDataSource.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestStreamingSource.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestHoodieActiveTimeline.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestTimeTravelQuery.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/functional/TestSqlStatement.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestGenericRecordAndRowConsistency.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestHoodieFileIndex.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/hudi/TestAvroConversionHelper.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/hudi/benchmark/HoodieBenchmarkBase.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/hudi/benchmark/HoodieBenchmark.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/hudi/benchmark/HoodieBenchmarks.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestShowPartitions.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestMergeIntoTable2.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestCompactionTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestSpark3DDL.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestMergeIntoLogOnlyTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestTruncateTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestInsertTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestAlterTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestDeleteTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestDropTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestCreateTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestShowInvalidParquetProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCallProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCommitsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestFsViewProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/HoodieSparkProcedureTestBase.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCallCommandParser.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCopyToTableProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestHoodieLogFileProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestMetadataProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestRepairsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestHdfsParquetImportProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCleanProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestClusteringProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestExportInstantsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestStatsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestSavepointsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestUpgradeOrDowngradeProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestBootstrapProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestCompactionProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/procedure/TestShowFsPathDetailProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestMergeIntoTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestTimeTravelTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/HoodieSparkSqlTestBase.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestUpdateTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/command/index/TestIndexSyntax.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestQueryMergeOnReadOptimizedTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestDeleteFromTable.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestSqlConf.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestPartialUpdateForMergeInto.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestNestedSchemaPruningOptimization.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestHoodieOptionConfig.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/hudi/TestAlterTableDropPartition.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/avro/TestSchemaConverters.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/avro/TestAvroSerDe.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/execution/benchmark/SpaceCurveOptimizeBenchmark.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/execution/benchmark/AvroSerDerBenchmark.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/test/scala/org/apache/spark/sql/execution/benchmark/CowTableReadBenchmark.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/HoodieDataSourceHelpers.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkParquetBootstrapDataProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkFullBootstrapDataProviderBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkOrcBootstrapDataProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/QuickstartUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/payload/AWSDmsAvroPayload.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/SchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/HDFSParquetImporterUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/BootstrapExecutorUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommon.g4
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/analysis/HoodieAnalysis.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/DedupeSparkJob.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/SparkHelpers.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/HoodieSqlUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/HoodieSparkSessionExtension.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/CommitsCompareProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ProcedureBuilder.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowMetadataTablePartitionsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/DeleteMarkerProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RepairDeduplicateProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/DeleteSavepointProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowHoodieLogFileMetadataProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowCommitsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RepairAddpartitionmetaProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowHoodieLogFileRecordsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowBootstrapPartitionsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowArchivedCommitsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowCommitFilesProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RepairMigratePartitionMetaProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ValidateHoodieSyncProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/CreateMetadataTableProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/BaseProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ExportInstantsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowMetadataTableStatsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/InitMetadataTableProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/UpgradeOrDowngradeProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RunCleanProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/HoodieProcedures.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/Procedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowFileSystemViewProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowRollbacksProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RunBootstrapProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ProcedureArgs.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ProcedureParameterImpl.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RollbackToSavepointProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ProcedureParameter.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/StatsWriteAmplificationProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RepairOverwriteHoodiePropsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/CopyToTableProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/HdfsParquetImportProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RepairCorruptedCleanFilesProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowBootstrapMappingProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowFsPathDetailProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RunCompactionProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowCommitWriteStatsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/CreateSavepointProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowInvalidParquetProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowClusteringProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/HoodieProcedureUtils.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/StatsFileSizeProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/DeleteMetadataTableProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RollbackToInstantTimeProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowSavepointsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/HiveSyncProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ValidateMetadataTableFilesProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/RunClusteringProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowMetadataTableFilesProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowCommitPartitionsProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/procedures/ShowCompactionProcedure.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/UpdateHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/InsertIntoHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CallProcedureHoodieCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CreateHoodieTableAsSelectCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CompactionShowHoodiePathCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CompactionHoodiePathCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/payload/ExpressionCodeGen.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/payload/ExpressionPayload.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CompactionShowHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/CompactionHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/UuidKeyGenerator.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/DeleteHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/IndexCommands.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/command/MergeIntoHoodieTableCommand.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/hudi/DeDupeType.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/Index.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/Compaction.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/catalyst/plans/logical/Call.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/parser/HoodieCommonSqlParser.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/scala/org/apache/spark/sql/parser/HoodieSqlCommonAstBuilder.scala
+ 
+*****************************************************

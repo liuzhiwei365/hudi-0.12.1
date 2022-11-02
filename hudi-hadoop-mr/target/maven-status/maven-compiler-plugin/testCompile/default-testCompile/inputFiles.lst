@@ -1,0 +1,13 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeRecordReader.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestAnnotation.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieROTablePathFilter.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/hive/TestHoodieCombineHiveInputFormat.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieMergeOnReadTableInputFormat.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestRecordReaderValueIterator.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestGloballyConsistentTimeStampFilteringInputFormat.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieCopyOnWriteTableInputFormat.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/testutils/InputFormatTestUtil.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestInputPathHandler.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieParquetInputFormat.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieHFileInputFormat.java

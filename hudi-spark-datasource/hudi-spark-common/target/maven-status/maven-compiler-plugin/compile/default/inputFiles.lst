@@ -1,0 +1,8 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseDefaultSource.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/sql/IExpressionEvaluator.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/DataSourceInternalWriterHelper.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/DataSourceUtils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseWriterCommitMessage.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncCompactService.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncClusteringService.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/sql/InsertMode.java

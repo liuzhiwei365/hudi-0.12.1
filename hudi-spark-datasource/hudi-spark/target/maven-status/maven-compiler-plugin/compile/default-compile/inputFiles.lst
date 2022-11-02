@@ -1,0 +1,15 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/BootstrapExecutorUtils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonLexer.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkFullBootstrapDataProviderBase.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonVisitor.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonBaseVisitor.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/SchemaProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkOrcBootstrapDataProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonListener.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/cli/HDFSParquetImporterUtils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonParser.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/bootstrap/SparkParquetBootstrapDataProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/QuickstartUtils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlCommonBaseListener.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/HoodieDataSourceHelpers.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark/src/main/java/org/apache/hudi/payload/AWSDmsAvroPayload.java

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriterFactory.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/DefaultSource.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieWriterCommitMessage.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieDataSourceInternalWriter.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriter.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/test/java/org/apache/hudi/internal/TestHoodieDataSourceInternalWriter.java">
+<error line="27" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/test/java/org/apache/hudi/internal/TestHoodieBulkInsertDataInternalWriter.java">
+<error line="26" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+</checkstyle>

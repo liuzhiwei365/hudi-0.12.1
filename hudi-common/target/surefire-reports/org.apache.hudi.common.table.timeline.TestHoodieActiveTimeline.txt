@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hudi.common.table.timeline.TestHoodieActiveTimeline
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 415.163 s - in org.apache.hudi.common.table.timeline.TestHoodieActiveTimeline

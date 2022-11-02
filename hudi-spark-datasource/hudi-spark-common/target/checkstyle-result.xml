@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/DataSourceUtils.java">
+<error line="24" severity="info" message="Import org.apache.hudi.client.SparkRDDReadClient appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="info" message="Import org.apache.hudi.client.HoodieWriteResult appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="47" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncCompactService.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/async/SparkStreamingAsyncClusteringService.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseWriterCommitMessage.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/BaseDefaultSource.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/internal/DataSourceInternalWriterHelper.java">
+<error line="34" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="info" message="Import org.apache.hadoop.conf.Configuration appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/sql/IExpressionEvaluator.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/main/java/org/apache/hudi/sql/InsertMode.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark-common/src/test/java/org/apache/hudi/internal/HoodieBulkInsertInternalWriterTestBase.java">
+<error line="32" severity="info" message="&apos;org.apache.spark.sql.Dataset&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+</checkstyle>

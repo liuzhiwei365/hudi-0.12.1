@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hudi.common.table.view.TestHoodieTableFileSystemView
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.532 s - in org.apache.hudi.common.table.view.TestHoodieTableFileSystemView

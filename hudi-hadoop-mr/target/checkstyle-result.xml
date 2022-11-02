@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/InputSplitUtils.java">
+<error line="25" severity="info" message="Import org.apache.avro.Schema appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="info" message="Import org.apache.hudi.avro.HoodieAvroUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieHFileInputFormat.java">
+<error line="29" severity="info" message="Import org.apache.hudi.common.table.timeline.HoodieDefaultTimeline appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieHFileRecordReader.java">
+<error line="24" severity="info" message="Import org.apache.avro.Schema appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="info" message="Import org.apache.hudi.hadoop.utils.HoodieRealtimeRecordReaderUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="39" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieParquetInputFormat.java">
+<error line="30" severity="info" message="Import org.apache.hudi.common.model.HoodieRecord appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieRealtimeInputFormatUtils.java">
+<error line="25" severity="info" message="Import org.apache.hudi.common.model.HoodieRecord appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieRealtimeRecordReaderUtils.java">
+<error line="44" severity="info" message="Import org.apache.hudi.common.util.collection.Pair appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="50" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="67" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieHiveUtils.java">
+<error line="25" severity="info" message="Import org.apache.hudi.common.util.CollectionUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="27" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="39" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieInputFormatUtils.java">
+<error line="34" severity="info" message="Import org.apache.hudi.common.config.HoodieMetadataConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="56" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="74" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HiveHoodieTableFileIndex.java">
+<error line="23" severity="info" message="Import org.apache.hudi.BaseHoodieTableFileIndex appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="info" message="&apos;org.slf4j.Logger&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieHFileRealtimeInputFormat.java">
+<error line="30" severity="info" message="Import org.apache.hudi.common.util.Option appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/RealtimeCompactedRecordReader.java">
+<error line="27" severity="info" message="Import org.apache.hudi.avro.HoodieAvroUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/RealtimeSplit.java">
+<error line="23" severity="info" message="Import org.apache.hudi.common.model.HoodieLogFile appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieMergeOnReadTableInputFormat.java">
+<error line="31" severity="info" message="Import org.apache.hudi.common.model.FileSlice appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimeFileSplit.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.model.HoodieLogFile appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimePath.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.model.HoodieLogFile appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieParquetRealtimeInputFormat.java">
+<error line="28" severity="info" message="Import org.apache.hudi.common.fs.FSUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="35" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/AbstractRealtimeRecordReader.java">
+<error line="25" severity="info" message="Import org.apache.hudi.common.table.TableSchemaResolver appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimeBootstrapBaseFileSplit.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.model.HoodieLogFile appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/BootstrapColumnStichingRecordReader.java">
+<error line="29" severity="info" message="Import org.apache.hudi.common.util.ValidationUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/RealtimeFileStatus.java">
+<error line="23" severity="info" message="Import org.apache.hudi.common.model.HoodieLogFile appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/InputPathHandler.java">
+<error line="28" severity="info" message="Import org.apache.hudi.hadoop.utils.HoodieHiveUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineRealtimeFileSplit.java">
+<error line="156" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineHiveInputFormat.java">
+<error line="59" severity="info" message="Import org.apache.hudi.common.util.ReflectionUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="66" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineRealtimeHiveSplit.java">
+<error line="23" severity="info" message="Import org.apache.hadoop.fs.Path appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="info" message="Import org.apache.hudi.hadoop.hive.HoodieCombineHiveInputFormat.CombineHiveInputSplit appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieCopyOnWriteTableInputFormat.java">
+<error line="34" severity="info" message="Import org.apache.hudi.common.config.TypedProperties appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" severity="info" message="&apos;org.apache.log4j.LogManager&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="57" severity="info" message="&apos;java.io.IOException&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieColumnProjectionUtils.java">
+<error line="22" severity="info" message="Import org.apache.hudi.common.util.ValidationUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieParquetInputFormatBase.java">
+<error line="31" severity="info" message="Import org.apache.hudi.hadoop.realtime.HoodieMergeOnReadTableInputFormat appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestInputPathHandler.java">
+<error line="47" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieROTablePathFilter.java">
+<error line="37" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestGloballyConsistentTimeStampFilteringInputFormat.java">
+<error line="38" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieHFileInputFormat.java">
+<error line="61" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieCopyOnWriteTableInputFormat.java">
+<error line="36" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java">
+<error line="59" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeRecordReader.java">
+<error line="48" severity="info" message="Import org.apache.hudi.hadoop.testutils.InputFormatTestUtil appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="51" severity="info" message="Import org.apache.avro.Schema appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="75" severity="info" message="导入组之前的额外空行 &apos;org.junit.jupiter.api.BeforeEach&apos;。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="104" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieMergeOnReadTableInputFormat.java">
+<error line="41" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestAnnotation.java">
+<error line="22" severity="info" message="Import org.apache.hudi.hadoop.realtime.HoodieParquetRealtimeInputFormat appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="info" message="&apos;java.lang.annotation.Annotation&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="27" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieParquetInputFormat.java">
+<error line="31" severity="info" message="Import org.apache.hudi.avro.HoodieAvroUtils appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" severity="info" message="&apos;org.junit.jupiter.api.BeforeEach&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="74" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/hive/TestHoodieCombineHiveInputFormat.java">
+<error line="74" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestRecordReaderValueIterator.java">
+<error line="36" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/testutils/InputFormatTestUtil.java">
+<error line="69" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+</checkstyle>

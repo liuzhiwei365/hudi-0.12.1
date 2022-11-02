@@ -1,0 +1,7 @@
+#Wed Nov 02 04:37:33 CST 2022
+module-resource*?\:/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/target/checkstyle-suppressions.xml=B6D3B975006F224BC52EA8E6D565995BAF8988AC
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java=1666067074000
+module-resource*?\:file\:/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/style/import-control.xml=2226931B46F50208FC10522CAE02C8E3E961695C
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java=1666067074000
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java=1666067074000
+configuration*?=BBD6BC10315B88B56B7E5522A50B221152956FC3

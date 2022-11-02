@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hudi.common.util.TestDFSPropertiesConfiguration
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.224 s - in org.apache.hudi.common.util.TestDFSPropertiesConfiguration

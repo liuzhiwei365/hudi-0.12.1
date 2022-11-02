@@ -1,0 +1,6 @@
+org/apache/hudi/gcp/bigquery/BigQuerySyncConfig.class
+org/apache/hudi/gcp/bigquery/BigQuerySyncTool$1.class
+org/apache/hudi/gcp/bigquery/BigQuerySyncConfig$BigQuerySyncConfigParams.class
+org/apache/hudi/gcp/bigquery/HoodieBigQuerySyncException.class
+org/apache/hudi/gcp/bigquery/HoodieBigQuerySyncClient.class
+org/apache/hudi/gcp/bigquery/BigQuerySyncTool.class

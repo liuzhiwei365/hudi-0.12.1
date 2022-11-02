@@ -1,0 +1,221 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T04:40:56+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 195
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/hive-site.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/schema_registry.source_schema_tab.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/sql-file-transformer-empty.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/hive_schema_provider_source.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/invalid_hive_sync_uber_config.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/hive_schema_provider_target.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/indexer.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source-jdbc.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source_evolved.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/target-flattened.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/sql-file-transformer.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/target.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/clusteringjob.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/sql-transformer.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source_short_trip_uber.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/dfs-source.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/target_uber.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/triprec.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/sql-file-transformer-invalid.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/indexer-only-bloom.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/kafka-source.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/target_short_trip_uber.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/uber_config.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/complex-source.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/base.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/short_trip_uber_config.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/schema_registry.target_schema_tab.sql
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source-flattened.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/resources/delta-streamer-config/source_uber.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/SparkAvroSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/DummySchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/DummySchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/deser/TestKafkaAvroSchemaDeserializer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestHoodieSnapshotExporter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestSchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/schema/TestSchemaRegistryProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/deltastreamer/TestSchedulerConfGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestParquetDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestS3EventsSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestHoodieIncrSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestJsonKafkaSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestParquetDFSSourceEmptyBatch.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestJsonDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestJdbcSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestSqlSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestCsvDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestAvroDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestDataSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestInputBatch.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/TestJsonKafkaSourcePostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestCheckpointUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestS3EventsMetaSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestDFSPathSelectorCommonMethods.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestCloudObjectsSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestDatePartitionPathSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/TestKafkaOffsetGen.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/helpers/SchemaTestProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/debezium/TestMysqlDebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/debezium/TestPostgresDebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/sources/debezium/TestAbstractDebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestSqlQueryBuilder.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/checkpointing/TestKafkaConnectHdfsProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestHiveIncrementalPuller.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestHoodieRepairTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/transform/TestSqlFileBasedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/transform/TestChainedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/transform/TestSqlQueryBasedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/transform/TestFlatteningTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHoodieSnapshotCopier.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHoodieSnapshotExporter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestJdbcbasedSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHDFSParquetImporter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestAWSDatabaseMigrationServiceSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHoodieMultiTableDeltaStreamer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHiveSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHoodieDeltaStreamer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/HoodieDeltaStreamerTestBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestChainedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/UtilitiesFunctionalTestSuite.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/functional/TestHoodieDeltaStreamerWithMultiWriter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/SparkClientFunctionalTestHarnessWithHiveSupport.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/CloudObjectTestUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/sources/config/SourceConfigs.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/sources/AbstractDFSSourceTestBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/sources/AbstractBaseTestSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/sources/DistributedTestDataSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/sources/AbstractCloudObjectsSourceTestBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/JdbcTestUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/testutils/UtilitiesTestBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/test/java/org/apache/hudi/utilities/TestHoodieIndexer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieCleaner.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieIndexer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieCompactor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieSnapshotExporter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/util/BloomFilterData.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/SqlQueryBuilder.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deser/KafkaAvroSchemaDeserializer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HiveIncrementalPuller.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieSnapshotCopier.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieDataTableValidator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieClusteringJob.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieDataTableUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieRepairTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/UtilHelpers.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/RowBasedSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/JdbcbasedSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/NullTargetSchemaRegistryProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/postprocessor/DropColumnSchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/postprocessor/add/BaseSchemaPostProcessorConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/postprocessor/add/AddPrimitiveColumnSchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/postprocessor/DeleteSupportSchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/postprocessor/ChainedSchemaPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SchemaSet.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SparkAvroPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SchemaRegistryProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/FilebasedSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/HiveSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/DelegatingSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/schema/SchemaProviderWithPostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HDFSParquetImporter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/IdentitySplitter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieMetadataTableValidator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieDropPartitionsTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/SourceFormatAdapter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/HoodieDeltaStreamer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/BootstrapExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/HoodieDeltaStreamerMetrics.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/SchedulerConfGenerator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/NoNewDataTerminationStrategy.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/PostWriteTerminationStrategy.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/DeltaSync.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/TableExecutionContext.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/HoodieMultiTableDeltaStreamer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/deltastreamer/TerminationStrategyUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/AvroSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/SqlSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/JdbcSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/JsonSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/AvroKafkaSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/AvroDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/processor/JsonKafkaSourcePostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/processor/ChainedJsonKafkaSourcePostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/processor/maxwell/PreCombineFieldType.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/processor/maxwell/MaxwellJsonKafkaSourcePostProcessor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/CsvDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/JsonDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/RowSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/InputBatch.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/HiveIncrPullSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/S3EventsHoodieIncrSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/ParquetDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/Source.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/JsonKafkaSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/S3EventsSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/HoodieIncrSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/S3EventsMetaSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/KafkaOffsetGen.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/CloudObjectsSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/AvroConvertor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/DatePartitionPathSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/DFSPathSelector.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/helpers/IncrSourceHelper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/ORCDFSSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/debezium/DebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/debezium/MysqlDebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/sources/debezium/PostgresDebeziumSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/callback/SourceCommitCallback.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/callback/kafka/HoodieWriteCommitKafkaCallback.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/callback/kafka/HoodieWriteCommitKafkaCallbackConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/callback/pulsar/HoodieWriteCommitPulsarCallbackConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/callback/pulsar/HoodieWriteCommitPulsarCallback.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/checkpointing/InitialCheckpointFromAnotherHoodieTimelineProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/checkpointing/InitialCheckPointProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/checkpointing/KafkaConnectHdfsProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/perf/TimelineServerPerf.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieSourcePostProcessException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieSchemaPostProcessException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieSchemaProviderException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieIncrementalPullException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieSourceTimeoutException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieSnapshotExporterException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieIncrementalPullSQLException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/exception/HoodieDeltaStreamerException.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieWithTimelineServer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/AWSDmsTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/SqlQueryBasedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/Transformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/SqlFileBasedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/FlatteningTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/transform/ChainedTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-utilities/src/main/java/org/apache/hudi/utilities/HoodieCompactionAdminTool.java
+ 
+*****************************************************

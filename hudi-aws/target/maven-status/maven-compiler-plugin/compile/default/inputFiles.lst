@@ -1,0 +1,10 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/cloudwatch/CloudWatchReporter.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/config/DynamoDbBasedLockConfig.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/utils/S3Utils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieConfigAWSCredentialsProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/transaction/lock/DynamoDBBasedLockProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/config/HoodieAWSConfig.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-aws/src/main/java/org/apache/hudi/aws/sync/HoodieGlueSyncException.java

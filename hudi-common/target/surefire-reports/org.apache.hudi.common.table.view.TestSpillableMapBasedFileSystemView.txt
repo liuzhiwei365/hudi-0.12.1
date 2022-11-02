@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hudi.common.table.view.TestSpillableMapBasedFileSystemView
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.409 s - in org.apache.hudi.common.table.view.TestSpillableMapBasedFileSystemView

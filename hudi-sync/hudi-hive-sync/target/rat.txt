@@ -1,0 +1,69 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T05:56:25+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 43
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/run_hive_global_commit_tool.sh
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/run_sync_tool.sh
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestPartitionValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/util/TestHiveSchemaUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestMultiPartKeysValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/replication/TestHiveSyncGlobalCommitTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestParquet2SparkSchemaUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/TestHiveSyncTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/functional/HiveSyncFunctionalTestSuite.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/functional/TestHiveMetastoreBasedLockProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestCluster.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveSyncFunctionalTestHarness.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/test/java/org/apache/hudi/hive/testutils/HiveTestService.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/assembly/src.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveSyncConfigHolder.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/transaction/lock/HiveMetastoreBasedLockProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveSyncTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SlashEncodedDayPartitionValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/util/ColumnNameXLator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/util/HiveSchemaUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/util/HivePartitionUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/MultiPartKeysValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SchemaDifference.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/JDBCExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/QueryBasedDDLExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/HMSDDLExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/HiveSyncMode.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/DDLExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/ddl/HiveQueryDDLExecutor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/NonPartitionedExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveStylePartitionValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HiveSyncConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HoodieHiveSyncClient.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/SlashEncodedHourPartitionValueExtractor.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/GlobalHiveSyncTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/GlobalHiveSyncConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/ReplicationStateSync.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/HiveSyncGlobalCommitParams.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/HiveSyncGlobalCommitTool.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/replication/HiveSyncGlobalCommit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-sync/hudi-hive-sync/src/main/java/org/apache/hudi/hive/HoodieHiveSyncException.java
+ 
+*****************************************************

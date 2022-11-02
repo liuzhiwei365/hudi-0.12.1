@@ -1,0 +1,87 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T05:55:37+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 61
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/resources/sample1.avsc
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestInputPathHandler.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieROTablePathFilter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestGloballyConsistentTimeStampFilteringInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieHFileInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieCopyOnWriteTableInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeFileSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieRealtimeRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/realtime/TestHoodieMergeOnReadTableInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestAnnotation.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestHoodieParquetInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/hive/TestHoodieCombineHiveInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/TestRecordReaderValueIterator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/test/java/org/apache/hudi/hadoop/testutils/InputFormatTestUtil.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieTableInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/SafeParquetRecordReaderWrapper.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/UseRecordReaderFromInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/FileStatusWithBootstrapBaseFile.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/config/HoodieRealtimeConfig.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/InputSplitUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieHFileInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieROTablePathFilter.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieHFileRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/BootstrapBaseFileSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/PathWithBootstrapFileStatus.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/UseFileSplitsFromInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieParquetInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieRealtimeInputFormatUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieRealtimeRecordReaderUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieHiveUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/utils/HoodieInputFormatUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HiveHoodieTableFileIndex.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieHFileRealtimeInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieEmptyRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/RealtimeCompactedRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieVirtualKeyInfo.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/RealtimeSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieMergeOnReadTableInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieCombineRealtimeRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/RealtimeUnmergedRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimeRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimeFileSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieParquetSerde.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimePath.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieParquetRealtimeInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/AbstractRealtimeRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/realtime/HoodieRealtimeBootstrapBaseFileSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/BootstrapColumnStichingRecordReader.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/RealtimeFileStatus.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/InputPathHandler.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineRealtimeFileSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineHiveInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/hive/HoodieCombineRealtimeHiveSplit.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/RecordReaderValueIterator.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieCopyOnWriteTableInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieColumnProjectionUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/LocatedFileStatusWithBootstrapBaseFile.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/org/apache/hudi/hadoop/HoodieParquetInputFormatBase.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/com/uber/hoodie/hadoop/realtime/HoodieRealtimeInputFormat.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-hadoop-mr/src/main/java/com/uber/hoodie/hadoop/HoodieInputFormat.java
+ 
+*****************************************************

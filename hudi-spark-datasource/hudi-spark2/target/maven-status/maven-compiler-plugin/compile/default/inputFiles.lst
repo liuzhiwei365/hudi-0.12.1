@@ -1,0 +1,11 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieWriterCommitMessage.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieDataSourceInternalWriter.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseVisitor.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseLexer.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriterFactory.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/HoodieBulkInsertDataInternalWriter.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseParser.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseBaseVisitor.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/src/main/java/org/apache/hudi/internal/DefaultSource.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseBaseListener.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-spark-datasource/hudi-spark2/target/generated-sources/antlr4/org/apache/hudi/spark/sql/parser/HoodieSqlBaseListener.java

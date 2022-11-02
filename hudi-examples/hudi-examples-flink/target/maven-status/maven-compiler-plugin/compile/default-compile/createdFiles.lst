@@ -1,0 +1,13 @@
+org/apache/hudi/examples/quickstart/source/ContinuousFileSource$1.class
+org/apache/hudi/examples/quickstart/utils/QuickstartConfigurations$Catalog.class
+org/apache/hudi/examples/quickstart/utils/QuickstartConfigurations.class
+org/apache/hudi/examples/quickstart/source/ContinuousFileSource.class
+org/apache/hudi/examples/quickstart/source/ContinuousFileSource$BoundedSourceFunction.class
+org/apache/hudi/examples/quickstart/factory/ContinuousFileSourceFactory.class
+org/apache/hudi/examples/quickstart/factory/CollectSinkTableFactory$CollectSinkFunction.class
+org/apache/hudi/examples/quickstart/factory/CollectSinkTableFactory$CollectTableSink.class
+org/apache/hudi/examples/quickstart/HoodieFlinkQuickstart.class
+org/apache/hudi/examples/quickstart/utils/SchemaBuilder.class
+org/apache/hudi/examples/quickstart/factory/CollectSinkTableFactory.class
+org/apache/hudi/examples/quickstart/factory/CollectSinkTableFactory$1.class
+org/apache/hudi/examples/quickstart/utils/QuickstartConfigurations$Sql.class

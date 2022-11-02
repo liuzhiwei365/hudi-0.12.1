@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionInfo.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionCoordinator.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionCoordinator.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/TransactionParticipant.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/CoordinatorEvent.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/transaction/ConnectTransactionParticipant.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectTransactionServices.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/AbstractConnectWriter.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectWriterProvider.java">
+<error line="31" severity="info" message="Import org.apache.hudi.config.HoodieIndexConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="32" severity="info" message="Import org.apache.hudi.config.HoodieCleanConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="info" message="Import org.apache.hudi.config.HoodieArchivalConfig appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectWriterProvider.java">
+<error line="21" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/BufferedConnectWriter.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectTransactionServices.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/ConnectWriter.java">
+<error line="26" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/writers/KafkaConnectConfigs.java">
+<error line="183" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/KafkaConnectFileIdPrefixProvider.java">
+<error line="29" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/utils/KafkaConnectUtils.java">
+<error line="23" severity="info" message="Import org.apache.hudi.client.WriteStatus appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="42" severity="info" message="&apos;org.apache.kafka.clients.admin.AdminClient&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkTask.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlProducer.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaConnectControlAgent.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/kafka/KafkaControlAgent.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/main/java/org/apache/hudi/connect/HoodieSinkConnector.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestAbstractConnectWriter.java">
+<error line="56" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/writers/TestBufferedConnectWriter.java">
+<error line="47" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestHdfsConfiguration.java">
+<error line="22" severity="info" message="&apos;org.junit.jupiter.api.Assertions.assertEquals&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="25" severity="info" message="Import org.apache.hudi.connect.writers.KafkaConnectConfigs appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="info" message="&apos;org.junit.jupiter.api.Test&apos; 应与之前的导入语句通过空行隔开。" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionCoordinator.java">
+<error line="50" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/connect/TestConnectTransactionParticipant.java">
+<error line="29" severity="info" message="Import org.apache.hudi.helper.MockKafkaConnect appears after other imports that it should precede" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="41" severity="info" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockConnectTransactionServices.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaConnect.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/MockKafkaControlAgent.java">
+</file>
+<file name="/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-kafka-connect/src/test/java/org/apache/hudi/helper/TestHudiWriterProvider.java">
+</file>
+</checkstyle>

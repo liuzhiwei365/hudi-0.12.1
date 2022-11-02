@@ -1,0 +1,40 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T04:42:40+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 14
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/test/python/HoodiePySparkQuickstart.py
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/test/python/README.md
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/test/java/org/apache/hudi/examples/quickstart/TestHoodieSparkQuickstart.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/resources/delta-streamer-config/kafka/kafka-source.properties
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/quickstart/HoodieSparkQuickstart.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/ExampleDataSchemaProvider.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/RandomJsonSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/HoodieExampleSparkUtils.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/IdentityTransformer.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/spark/HoodieSparkBootstrapExample.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/spark/HoodieWriteClientExample.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/scala/org/apache/hudi/examples/spark/HoodieMorCompactionJob.scala
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/scala/org/apache/hudi/examples/spark/HoodieDataSourceExample.scala
+ 
+*****************************************************

@@ -1,0 +1,15 @@
+org/apache/hudi/aws/credentials/HoodieConfigAWSCredentialsProvider.class
+org/apache/hudi/aws/utils/S3Utils.class
+org/apache/hudi/aws/cloudwatch/CloudWatchReporter$Builder.class
+org/apache/hudi/config/DynamoDbBasedLockConfig.class
+org/apache/hudi/aws/credentials/HoodieAWSCredentialsProviderFactory.class
+org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient$TableType.class
+org/apache/hudi/aws/sync/AWSGlueCatalogSyncClient.class
+org/apache/hudi/aws/sync/HoodieGlueSyncException.class
+org/apache/hudi/aws/transaction/lock/DynamoDBBasedLockProvider.class
+org/apache/hudi/aws/sync/AwsGlueCatalogSyncTool.class
+org/apache/hudi/config/HoodieAWSConfig$1.class
+org/apache/hudi/aws/cloudwatch/CloudWatchReporter$1.class
+org/apache/hudi/aws/cloudwatch/CloudWatchReporter.class
+org/apache/hudi/config/HoodieAWSConfig.class
+org/apache/hudi/config/HoodieAWSConfig$Builder.class

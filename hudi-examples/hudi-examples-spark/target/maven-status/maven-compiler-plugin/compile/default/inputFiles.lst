@@ -1,0 +1,7 @@
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/ExampleDataSchemaProvider.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/HoodieExampleSparkUtils.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/quickstart/HoodieSparkQuickstart.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/RandomJsonSource.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/common/IdentityTransformer.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/spark/HoodieWriteClientExample.java
+/Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-spark/src/main/java/org/apache/hudi/examples/spark/HoodieSparkBootstrapExample.java

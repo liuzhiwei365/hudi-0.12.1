@@ -1,0 +1,9 @@
+org/apache/hudi/sync/common/util/TestConfigUtils.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers$InvalidSyncTool.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers$DeprecatedSyncTool1.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers$DummySyncTool2.class
+org/apache/hudi/sync/common/util/TestManifestFileWriter.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers$DeprecatedSyncTool2.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers$DummySyncTool1.class
+org/apache/hudi/sync/common/util/TestSyncUtilHelpers.class
+org/apache/hudi/sync/common/TestHoodieSyncConfig.class

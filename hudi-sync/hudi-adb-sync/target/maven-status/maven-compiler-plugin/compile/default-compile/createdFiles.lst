@@ -1,0 +1,6 @@
+org/apache/hudi/sync/adb/AdbSyncConfig.class
+org/apache/hudi/sync/adb/AdbSyncTool.class
+org/apache/hudi/sync/adb/AdbSyncTool$1.class
+org/apache/hudi/sync/adb/HoodieAdbSyncException.class
+org/apache/hudi/sync/adb/HoodieAdbJdbcClient.class
+org/apache/hudi/sync/adb/AdbSyncConfig$AdbSyncConfigParams.class

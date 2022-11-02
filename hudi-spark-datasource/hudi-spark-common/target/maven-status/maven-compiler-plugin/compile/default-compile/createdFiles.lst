@@ -1,0 +1,9 @@
+org/apache/hudi/async/SparkStreamingAsyncClusteringService.class
+org/apache/hudi/internal/BaseWriterCommitMessage.class
+org/apache/hudi/sql/IExpressionEvaluator.class
+org/apache/hudi/DataSourceUtils.class
+org/apache/hudi/internal/DataSourceInternalWriterHelper.class
+org/apache/hudi/internal/BaseDefaultSource.class
+org/apache/hudi/async/SparkStreamingAsyncCompactService.class
+org/apache/hudi/sql/InsertMode.class
+org/apache/hudi/DataSourceUtils$1.class

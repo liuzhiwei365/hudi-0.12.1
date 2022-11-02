@@ -1,0 +1,37 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-11-02T04:42:56+08:00
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 11
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/pom.xml
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/test/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/test/java/org/apache/hudi/examples/quickstart/TestHoodieFlinkQuickstart.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/test/java/org/apache/hudi/examples/quickstart/TestQuickstartData.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/resources/META-INF/services/org.apache.flink.table.factories.Factory
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/HoodieFlinkQuickstart.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/source/ContinuousFileSource.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/utils/SchemaBuilder.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/utils/QuickstartConfigurations.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/factory/ContinuousFileSourceFactory.java
+  AL2 /Users/liuzhiwei/ideapro/hudisrc/hudi-0.12.1/hudi-examples/hudi-examples-flink/src/main/java/org/apache/hudi/examples/quickstart/factory/CollectSinkTableFactory.java
+ 
+*****************************************************

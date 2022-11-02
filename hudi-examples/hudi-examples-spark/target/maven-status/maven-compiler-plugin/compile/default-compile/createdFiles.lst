@@ -1,0 +1,7 @@
+org/apache/hudi/examples/common/IdentityTransformer.class
+org/apache/hudi/examples/common/ExampleDataSchemaProvider.class
+org/apache/hudi/examples/spark/HoodieSparkBootstrapExample.class
+org/apache/hudi/examples/common/HoodieExampleSparkUtils.class
+org/apache/hudi/examples/spark/HoodieWriteClientExample.class
+org/apache/hudi/examples/common/RandomJsonSource.class
+org/apache/hudi/examples/quickstart/HoodieSparkQuickstart.class

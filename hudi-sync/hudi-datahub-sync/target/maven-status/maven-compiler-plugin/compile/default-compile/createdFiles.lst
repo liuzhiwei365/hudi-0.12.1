@@ -1,0 +1,8 @@
+org/apache/hudi/sync/datahub/HoodieDataHubSyncException.class
+org/apache/hudi/sync/datahub/DataHubSyncClient$1.class
+org/apache/hudi/sync/datahub/DataHubSyncClient.class
+org/apache/hudi/sync/datahub/DataHubSyncTool.class
+org/apache/hudi/sync/datahub/config/DataHubEmitterSupplier.class
+org/apache/hudi/sync/datahub/config/DataHubSyncConfig$DataHubSyncConfigParams.class
+org/apache/hudi/sync/datahub/config/HoodieDataHubDatasetIdentifier.class
+org/apache/hudi/sync/datahub/config/DataHubSyncConfig.class

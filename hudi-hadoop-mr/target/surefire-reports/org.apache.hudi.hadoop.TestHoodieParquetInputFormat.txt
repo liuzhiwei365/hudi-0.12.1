@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hudi.hadoop.TestHoodieParquetInputFormat
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.17 s - in org.apache.hudi.hadoop.TestHoodieParquetInputFormat
