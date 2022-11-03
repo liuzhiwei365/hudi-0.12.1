@@ -61,6 +61,9 @@ public class FlinkMergeHelper<T extends HoodieRecordPayload> extends BaseMergeHe
     return FlinkMergeHelper.MergeHelperHolder.FLINK_MERGE_HELPER;
   }
 
+  // 默认不会进行 排序
+  // runMerge 会 把新数据构造成一个 map
+  // 然后 循环一遍老数据 ,用新的 覆盖 老的
   @Override
   public void runMerge(HoodieTable<T, List<HoodieRecord<T>>, List<HoodieKey>, List<WriteStatus>> table,
                        HoodieMergeHandle<T, List<HoodieRecord<T>>, List<HoodieKey>, List<WriteStatus>> mergeHandle) throws IOException {

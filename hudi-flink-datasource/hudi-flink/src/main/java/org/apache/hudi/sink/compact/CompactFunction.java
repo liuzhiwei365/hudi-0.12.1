@@ -108,6 +108,8 @@ public class CompactFunction extends ProcessFunction<CompactionPlanEvent, Compac
                             HoodieWriteConfig writeConfig) throws IOException {
     HoodieFlinkMergeOnReadTableCompactor<?> compactor = new HoodieFlinkMergeOnReadTableCompactor<>();
     List<WriteStatus> writeStatuses = compactor.compact(
+            // 这里 new 了一个HoodieFlinkCopyOnWriteTable 非常有意思
+            // 因为 只有 mor表才能进行压缩
         new HoodieFlinkCopyOnWriteTable<>(
             writeConfig,
             writeClient.getEngineContext(),

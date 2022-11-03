@@ -255,6 +255,7 @@ public abstract class AbstractHoodieLogRecordReader {
             if (isNewInstantBlock(logBlock) && !readBlocksLazily) {
               // If this is an avro data block belonging to a different commit/instant,
               // then merge the last blocks and records into the main result
+              // 默认 avro 正常 日志文件走这里 , 数据会被放入一个map 中, 保证去重
               processQueuedBlocksForInstant(currentInstantLogBlocks, scannedLogFiles.size(), keySpecOpt);
             }
             // store the current block
@@ -381,6 +382,8 @@ public abstract class AbstractHoodieLogRecordReader {
       while (recordIterator.hasNext()) {
         IndexedRecord currentRecord = recordIterator.next();
         IndexedRecord record = schemaOption.isPresent() ? HoodieAvroUtils.rewriteRecordWithNewSchema(currentRecord, schemaOption.get(), Collections.emptyMap()) : currentRecord;
+        // ExternalSpillableMap<String, HoodieRecord<? extends HoodieRecordPayload>> records
+        // 把 数据放入这个 map 里面,保证去重
         processNextRecord(createHoodieRecord(record, this.hoodieTableMetaClient.getTableConfig(), this.payloadClassFQN,
             this.preCombineField, this.withOperationField, this.simpleKeyGenFields, this.partitionName));
         totalLogRecords.incrementAndGet();
@@ -460,7 +463,7 @@ public abstract class AbstractHoodieLogRecordReader {
       // poll the element at the bottom of the stack since that's the order it was inserted
       HoodieLogBlock lastBlock = logBlocks.pollLast();
       switch (lastBlock.getBlockType()) {
-        case AVRO_DATA_BLOCK:
+        case AVRO_DATA_BLOCK: // 默认是 avro 日志文件
           processDataBlock((HoodieAvroDataBlock) lastBlock, keySpecOpt);
           break;
         case HFILE_DATA_BLOCK:

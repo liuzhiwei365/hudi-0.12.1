@@ -35,13 +35,14 @@ import java.util.stream.Stream;
 public class ClusteringPlanPartitionFilter {
 
   public static List<String> filter(List<String> partitions, HoodieWriteConfig config) {
+    //hoodie.clustering.plan.partition.filter.mode
     ClusteringPlanPartitionFilterMode mode = config.getClusteringPlanPartitionFilterMode();
     switch (mode) {
       case NONE:
         return partitions;
       case RECENT_DAYS:
         return recentDaysFilter(partitions, config);
-      case SELECTED_PARTITIONS:
+      case SELECTED_PARTITIONS: //hoodie.clustering.plan.strategy.cluster.begin.partition   cluster.end.partition
         return selectedPartitionsFilter(partitions, config);
       default:
         throw new HoodieClusteringException("Unknown partition filter, filter mode: " + mode);
@@ -49,7 +50,9 @@ public class ClusteringPlanPartitionFilter {
   }
 
   private static List<String> recentDaysFilter(List<String> partitions, HoodieWriteConfig config) {
+    //hoodie.clustering.plan.strategy.daybased.lookback.partitions
     int targetPartitionsForClustering = config.getTargetPartitionsForClustering();
+    //hoodie.clustering.plan.strategy.daybased.skipfromlatest.partitions
     int skipPartitionsFromLatestForClustering = config.getSkipPartitionsFromLatestForClustering();
     return partitions.stream()
         .sorted(Comparator.reverseOrder())

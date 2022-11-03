@@ -107,6 +107,7 @@ public abstract class ClusteringPlanStrategy<T extends HoodieRecordPayload,I,K,O
   /**
    * Return file slices eligible for clustering. FileIds in pending clustering/compaction are not eligible for clustering.
    */
+  // 拿到该分区下,  每个文件组的最新版本的文件片，然后过滤掉正在进行压缩或者集群化的 文件片
   protected Stream<FileSlice> getFileSlicesEligibleForClustering(String partition) {
     SyncableFileSystemView fileSystemView = (SyncableFileSystemView) getHoodieTable().getSliceView();
     Set<HoodieFileGroupId> fgIdsInPendingCompactionAndClustering = fileSystemView.getPendingCompactionOperations()
@@ -114,9 +115,9 @@ public abstract class ClusteringPlanStrategy<T extends HoodieRecordPayload,I,K,O
         .collect(Collectors.toSet());
     fgIdsInPendingCompactionAndClustering.addAll(fileSystemView.getFileGroupsInPendingClustering().map(Pair::getKey).collect(Collectors.toSet()));
 
-    return hoodieTable.getSliceView().getLatestFileSlices(partition)
+    return hoodieTable.getSliceView().getLatestFileSlices(partition)//拿到文件组的最新版本的文件片
         // file ids already in clustering are not eligible
-        .filter(slice -> !fgIdsInPendingCompactionAndClustering.contains(slice.getFileGroupId()));
+        .filter(slice -> !fgIdsInPendingCompactionAndClustering.contains(slice.getFileGroupId())); // 过滤掉正在进行压缩或者集群化的 文件片
   }
 
   /**

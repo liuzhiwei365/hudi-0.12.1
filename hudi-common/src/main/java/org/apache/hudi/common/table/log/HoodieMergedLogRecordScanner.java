@@ -317,6 +317,8 @@ public class HoodieMergedLogRecordScanner extends AbstractHoodieLogRecordReader
       if (this.partitionName == null && CollectionUtils.nonEmpty(this.logFilePaths)) {
         this.partitionName = getRelativePartitionPath(new Path(basePath), new Path(this.logFilePaths.get(0)).getParent());
       }
+      // 这些日志文件的数据 会放到一个map 里面, 保证了去重
+      // 而调用迭代器的方法时 ,就是返回该map 的 iterator()方法
       return new HoodieMergedLogRecordScanner(fs, basePath, logFilePaths, readerSchema,
           latestInstantTime, maxMemorySizeInBytes, readBlocksLazily, reverseReader,
           bufferSize, spillableMapBasePath, instantRange,

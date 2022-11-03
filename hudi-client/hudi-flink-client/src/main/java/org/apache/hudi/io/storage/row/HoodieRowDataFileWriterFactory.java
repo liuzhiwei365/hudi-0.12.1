@@ -60,13 +60,16 @@ public class HoodieRowDataFileWriterFactory {
   private static HoodieRowDataFileWriter newParquetInternalRowFileWriter(
       Path path, HoodieWriteConfig writeConfig, RowType rowType, HoodieTable table)
       throws IOException {
+
     BloomFilter filter = BloomFilterFactory.createBloomFilter(
         writeConfig.getBloomFilterNumEntries(),
         writeConfig.getBloomFilterFPP(),
         writeConfig.getDynamicBloomFilterMaxNumEntries(),
         writeConfig.getBloomFilterType());
+
     HoodieRowDataParquetWriteSupport writeSupport =
         new HoodieRowDataParquetWriteSupport(table.getHadoopConf(), rowType, filter);
+    // 内部含有bloom 过滤器
     return new HoodieRowDataParquetWriter(
         path, new HoodieParquetConfig<>(
         writeSupport,

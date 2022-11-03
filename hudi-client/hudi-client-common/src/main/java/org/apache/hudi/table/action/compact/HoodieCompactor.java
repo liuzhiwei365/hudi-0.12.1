@@ -179,6 +179,9 @@ public abstract class HoodieCompactor<T extends HoodieRecordPayload, I, K, O> im
     List<String> logFiles = operation.getDeltaFileNames().stream().map(
         p -> new Path(FSUtils.getPartitionPath(metaClient.getBasePath(), operation.getPartitionPath()), p).toString())
         .collect(toList());
+
+    // 这里的 log files 一定是来源于一个 文件片的
+    // 日志文件的数据会放到一个map 里面, 保证去重
     HoodieMergedLogRecordScanner scanner = HoodieMergedLogRecordScanner.newBuilder()
         .withFileSystem(fs)
         .withBasePath(metaClient.getBasePath())
@@ -276,6 +279,7 @@ public abstract class HoodieCompactor<T extends HoodieRecordPayload, I, K, O> im
     // TODO - rollback any compactions in flight
     HoodieTableMetaClient metaClient = hoodieTable.getMetaClient();
     LOG.info("Compacting " + metaClient.getBasePath() + " with commit " + compactionCommitTime);
+
     List<String> partitionPaths = FSUtils.getAllPartitionPaths(context, config.getMetadataConfig(), metaClient.getBasePath());
 
     // filter the partition paths if needed to reduce list status
@@ -290,12 +294,15 @@ public abstract class HoodieCompactor<T extends HoodieRecordPayload, I, K, O> im
     LOG.info("Compaction looking for files to compact in " + partitionPaths + " partitions");
     context.setJobStatus(this.getClass().getSimpleName(), "Looking for files to compact: " + config.getTableName());
 
+    // 一个文件片的 所有log 文件 形成一组, 封装给一个 HoodieCompactionOperation 对象
+    // 而 HoodieCompactionOperation 对象的集合  最终会被封装进入 plan
     List<HoodieCompactionOperation> operations = context.flatMap(partitionPaths, partitionPath -> fileSystemView
         .getLatestFileSlices(partitionPath)
         .filter(slice -> !fgIdsInPendingCompactionAndClustering.contains(slice.getFileGroupId()))
         .map(s -> {
-          List<HoodieLogFile> logFiles =
+          List<HoodieLogFile> logFiles = //根据commit time排序
               s.getLogFiles().sorted(HoodieLogFile.getLogFileComparator()).collect(toList());
+
           totalLogFiles.add(logFiles.size());
           totalFileSlices.add(1L);
           // Avro generated classes are not inheriting Serializable. Using CompactionOperation POJO
@@ -305,8 +312,9 @@ public abstract class HoodieCompactor<T extends HoodieRecordPayload, I, K, O> im
           return new CompactionOperation(dataFile, partitionPath, logFiles,
               config.getCompactionStrategy().captureMetrics(config, s));
         })
-        .filter(c -> !c.getDeltaFileNames().isEmpty()), partitionPaths.size()).stream()
-        .map(CompactionUtils::buildHoodieCompactionOperation).collect(toList());
+        .filter(c -> !c.getDeltaFileNames().isEmpty()), partitionPaths.size())  // 分区路径的size 当作并行度
+
+        .stream().map(CompactionUtils::buildHoodieCompactionOperation).collect(toList());
 
     LOG.info("Total of " + operations.size() + " compactions are retrieved");
     LOG.info("Total number of latest files slices " + totalFileSlices.value());
@@ -314,8 +322,12 @@ public abstract class HoodieCompactor<T extends HoodieRecordPayload, I, K, O> im
     LOG.info("Total number of file slices " + totalFileSlices.value());
     // Filter the compactions with the passed in filter. This lets us choose most effective
     // compactions only
+    //HoodieCompactionOperation 对象的集合  最终会被封装进入 plan
+    // 这些 operations 还会根据  策略 和 正在进行的 压缩计划    做一次过滤
+    // 这个过滤规则  相当 复杂 , 需要用户仔细考虑
     HoodieCompactionPlan compactionPlan = config.getCompactionStrategy().generateCompactionPlan(config, operations,
         CompactionUtils.getAllPendingCompactionPlans(metaClient).stream().map(Pair::getValue).collect(toList()));
+
     ValidationUtils.checkArgument(
         compactionPlan.getOperations().stream().noneMatch(
             op -> fgIdsInPendingCompactionAndClustering.contains(new HoodieFileGroupId(op.getPartitionPath(), op.getFileId()))),

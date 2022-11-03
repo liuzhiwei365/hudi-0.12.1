@@ -294,6 +294,9 @@ public class HoodieFlinkClusteringJob {
 
       // generate clustering plan
       // should support configurable commit metadata
+
+      // 这个不是 生成 cluster plan , 是到文件系统去拿到 相关的持久化的文件
+
       Option<Pair<HoodieInstant, HoodieClusteringPlan>> clusteringPlanOption = ClusteringUtils.getClusteringPlan(
           table.getMetaClient(), clusteringInstant);
 
@@ -313,6 +316,7 @@ public class HoodieFlinkClusteringJob {
       }
 
       HoodieInstant instant = HoodieTimeline.getReplaceCommitRequestedInstant(clusteringInstant.getTimestamp());
+
       HoodieTimeline pendingClusteringTimeline = table.getActiveTimeline().filterPendingReplaceTimeline();
       if (!pendingClusteringTimeline.containsInstant(instant)) {
         // this means that the clustering plan was written to auxiliary path(.tmp)
@@ -327,10 +331,13 @@ public class HoodieFlinkClusteringJob {
       }
 
       // get clusteringParallelism.
+
+      //如果没有配置 clustering.tasks , 默认 inputGroups 的组的个数 ，大约一个G 一个组
       int clusteringParallelism = conf.getInteger(FlinkOptions.CLUSTERING_TASKS) == -1
           ? clusteringPlan.getInputGroups().size() : conf.getInteger(FlinkOptions.CLUSTERING_TASKS);
 
       // Mark instant as clustering inflight
+      //持久化    .replaceRequested.Inflight 后缀 的文件
       table.getActiveTimeline().transitionReplaceRequestedToInflight(instant, Option.empty());
 
       final Schema tableAvroSchema = StreamerUtil.getTableAvroSchema(table.getMetaClient(), false);
@@ -344,10 +351,11 @@ public class HoodieFlinkClusteringJob {
       DataStream<ClusteringCommitEvent> dataStream = env.addSource(new ClusteringPlanSourceFunction(clusteringInstant.getTimestamp(), clusteringPlan))
           .name("clustering_source")
           .uid("uid_clustering_source")
+              //读取 一个 clusteringPlan ,拿到 所有需要 clustergroup （一个 clustergroup 中 含有 加起来 数据大约一个G 的 多个文件片）, 并把它们封装成事件 轮训地 发送给下游
           .rebalance()
           .transform("clustering_task",
               TypeInformation.of(ClusteringCommitEvent.class),
-              new ClusteringOperator(conf, rowType))
+              new ClusteringOperator(conf, rowType))//真正做 cluster 的地方
           .setParallelism(clusteringParallelism);
 
       ExecNodeUtil.setManagedMemoryWeight(dataStream.getTransformation(),

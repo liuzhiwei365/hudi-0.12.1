@@ -69,13 +69,17 @@ public class FlinkSizeBasedClusteringPlanStrategy<T extends HoodieRecordPayload<
   protected Stream<HoodieClusteringGroup> buildClusteringGroupsForPartition(String partitionPath, List<FileSlice> fileSlices) {
     HoodieWriteConfig writeConfig = getWriteConfig();
 
-    List<Pair<List<FileSlice>, Integer>> fileSliceGroups = new ArrayList<>();
+    List<Pair<  List<FileSlice>,Integer  >> fileSliceGroups = new ArrayList<>();
     List<FileSlice> currentGroup = new ArrayList<>();
     long totalSizeSoFar = 0;
+
+    // 把多个文件片  以近似 1 个 G 为单位,划分成一组
 
     for (FileSlice currentSlice : fileSlices) {
       // check if max size is reached and create new group, if needed.
       // in now, every clustering group out put is 1 file group.
+
+      //target.file.max.bytes  默认一个G
       if (totalSizeSoFar >= writeConfig.getClusteringTargetFileMaxBytes() && !currentGroup.isEmpty()) {
         LOG.info("Adding one clustering group " + totalSizeSoFar + " max bytes: "
             + writeConfig.getClusteringMaxBytesInGroup() + " num input slices: " + currentGroup.size());
@@ -90,6 +94,7 @@ public class FlinkSizeBasedClusteringPlanStrategy<T extends HoodieRecordPayload<
       totalSizeSoFar += currentSlice.getBaseFile().isPresent() ? currentSlice.getBaseFile().get().getFileSize() : writeConfig.getParquetMaxFileSize();
     }
 
+    // 防止 最后达不到 一个G , 单独处理
     if (!currentGroup.isEmpty()) {
       fileSliceGroups.add(Pair.of(currentGroup, 1));
     }
@@ -115,6 +120,8 @@ public class FlinkSizeBasedClusteringPlanStrategy<T extends HoodieRecordPayload<
   protected Stream<FileSlice> getFileSlicesEligibleForClustering(final String partition) {
     return super.getFileSlicesEligibleForClustering(partition)
         // Only files that have basefile size smaller than small file size are eligible.
+            // hoodie.clustering.plan.strategy.small.file.limit ，默认300M
+            // 文件片小于 该阈值 才拿来进行集群化
         .filter(slice -> slice.getBaseFile().map(HoodieBaseFile::getFileSize).orElse(0L) < getWriteConfig().getClusteringSmallFileLimit());
   }
 

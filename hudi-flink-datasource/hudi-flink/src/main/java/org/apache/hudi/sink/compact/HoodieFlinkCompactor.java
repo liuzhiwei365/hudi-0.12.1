@@ -84,6 +84,7 @@ public class HoodieFlinkCompactor {
    * Main method to start compaction service.
    */
   public void start(boolean serviceMode) throws Exception {
+    // 是否以 常驻服务的形式来运行
     if (serviceMode) {
       compactionScheduleService.start(null);
       try {
@@ -293,6 +294,8 @@ public class HoodieFlinkCompactor {
       }
 
       // get compactionParallelism.
+      // compaction.tasks 的数量 如果不指定, 则 operations 数量一直
+      // 可以 大约 看成 参与压缩的 文件片的数量   （要注意:  一个文件片内 有很多个 log 文件）
       int compactionParallelism = conf.getInteger(FlinkOptions.COMPACTION_TASKS) == -1
           ? Math.toIntExact(compactionPlans.stream().mapToLong(pair -> pair.getRight().getOperations().size()).sum())
           : conf.getInteger(FlinkOptions.COMPACTION_TASKS);

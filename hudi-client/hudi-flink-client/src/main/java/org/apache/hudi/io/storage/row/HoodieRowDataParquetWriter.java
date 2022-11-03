@@ -50,6 +50,7 @@ public class HoodieRowDataParquetWriter extends ParquetWriter<RowData>
     this.file = HoodieWrapperFileSystem.convertToHoodiePath(file, parquetConfig.getHadoopConf());
     this.fs = (HoodieWrapperFileSystem) this.file.getFileSystem(FSUtils.registerFileSystem(file,
         parquetConfig.getHadoopConf()));
+
     this.maxFileSize = parquetConfig.getMaxFileSize()
         + Math.round(parquetConfig.getMaxFileSize() * parquetConfig.getCompressionRatio());
     this.writeSupport = parquetConfig.getWriteSupport();
@@ -63,6 +64,8 @@ public class HoodieRowDataParquetWriter extends ParquetWriter<RowData>
   @Override
   public void writeRow(String key, RowData row) throws IOException {
     super.write(row);
+    //更新 bloom过滤器 ,更新最大最小值
+    // 注意更新bloom 过滤器的时候 只用key 去更新
     writeSupport.add(key);
   }
 

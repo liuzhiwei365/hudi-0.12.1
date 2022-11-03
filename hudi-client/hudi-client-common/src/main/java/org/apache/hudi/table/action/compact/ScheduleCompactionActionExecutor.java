@@ -68,6 +68,8 @@ public class ScheduleCompactionActionExecutor<T extends HoodieRecordPayload, I, 
 
   @Override
   public Option<HoodieCompactionPlan> execute() {
+
+    // 如果有乐观锁控制
     if (!config.getWriteConcurrencyMode().supportsOptimisticConcurrencyControl()
         && !config.getFailedWritesCleanPolicy().isLazy()) {
       // TODO(yihua): this validation is removed for Java client used by kafka-connect.  Need to revisit this.
@@ -85,17 +87,21 @@ public class ScheduleCompactionActionExecutor<T extends HoodieRecordPayload, I, 
           .filter(instant -> HoodieTimeline.compareTimestamps(
               instant.getTimestamp(), HoodieTimeline.GREATER_THAN_OR_EQUALS, instantTime))
           .collect(Collectors.toList());
+
       ValidationUtils.checkArgument(conflictingInstants.isEmpty(),
           "Following instants have timestamps >= compactionInstant (" + instantTime + ") Instants :"
               + conflictingInstants);
     }
 
+    //没有乐观锁控制
     HoodieCompactionPlan plan = scheduleCompaction();
+
     if (plan != null && (plan.getOperations() != null) && (!plan.getOperations().isEmpty())) {
       extraMetadata.ifPresent(plan::setExtraMetadata);
       HoodieInstant compactionInstant =
           new HoodieInstant(HoodieInstant.State.REQUESTED, HoodieTimeline.COMPACTION_ACTION, instantTime);
       try {
+        // 把  .compaction.requested 文件持久化到磁盘
         table.getActiveTimeline().saveToCompactionRequested(compactionInstant,
             TimelineMetadataUtils.serializeCompactionPlan(plan));
       } catch (IOException ioe) {
@@ -120,6 +126,8 @@ public class ScheduleCompactionActionExecutor<T extends HoodieRecordPayload, I, 
         // exclude files in pending clustering from compaction.
         fgInPendingCompactionAndClustering.addAll(fileSystemView.getFileGroupsInPendingClustering().map(Pair::getLeft).collect(Collectors.toSet()));
         context.setJobStatus(this.getClass().getSimpleName(), "Compaction: generating compaction plan: " + config.getTableName());
+
+        // 核心
         return compactor.generateCompactionPlan(context, table, config, instantTime, fgInPendingCompactionAndClustering);
       } catch (IOException e) {
         throw new HoodieCompactionException("Could not schedule compaction " + config.getBasePath(), e);

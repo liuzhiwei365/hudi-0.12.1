@@ -52,8 +52,9 @@ public abstract class HoodieBloomFilterWriteSupport<T extends Comparable<T>> {
   }
 
   public void addKey(T recordKey) {
+    //更新 bloom过滤器
     bloomFilter.add(getUTF8Bytes(recordKey));
-
+    //跟新最大最小值
     if (minRecordKey == null || minRecordKey.compareTo(recordKey) > 0) {
       minRecordKey = dereference(recordKey);
     }

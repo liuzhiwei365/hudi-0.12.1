@@ -71,6 +71,7 @@ public class ClusteringPlanSourceFunction extends AbstractRichFunction implement
   }
 
   @Override
+  // 读取 一个 clusteringPlan ,拿到 所有需要 clustering 的文件组, 并把它们封装成事件发送给下游
   public void run(SourceContext<ClusteringPlanEvent> sourceContext) throws Exception {
     for (HoodieClusteringGroup clusteringGroup : clusteringPlan.getInputGroups()) {
       LOG.info("Execute clustering plan for instant {} as {} file slices", clusteringInstantTime, clusteringGroup.getSlices().size());

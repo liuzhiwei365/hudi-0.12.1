@@ -65,6 +65,7 @@ public class ClusteringPlanActionExecutor<T extends HoodieRecordPayload, I, K, O
         .findInstantsAfter(lastClusteringInstant.map(HoodieInstant::getTimestamp).orElse("0"), Integer.MAX_VALUE)
         .countInstants();
 
+    //hoodie.clustering.inline     hoodie.clustering.inline.max.commits
     if (config.inlineClusteringEnabled() && config.getInlineClusterMaxCommits() > commitsSinceLastClustering) {
       LOG.info("Not scheduling inline clustering as only " + commitsSinceLastClustering
           + " commits was found since last clustering " + lastClusteringInstant + ". Waiting for "
@@ -72,6 +73,7 @@ public class ClusteringPlanActionExecutor<T extends HoodieRecordPayload, I, K, O
       return Option.empty();
     }
 
+    //hoodie.clustering.async.enabled     hoodie.clustering.async.max.commits
     if (config.isAsyncClusteringEnabled() && config.getAsyncClusterMaxCommits() > commitsSinceLastClustering) {
       LOG.info("Not scheduling async clustering as only " + commitsSinceLastClustering
           + " commits was found since last clustering " + lastClusteringInstant + ". Waiting for "
@@ -80,15 +82,20 @@ public class ClusteringPlanActionExecutor<T extends HoodieRecordPayload, I, K, O
     }
 
     LOG.info("Generating clustering plan for table " + config.getBasePath());
+    //hoodie.clustering.plan.strategy.class  配置各类 clustering 计划策略类
+    // 这里是 FlinkSizeBasedClusteringPlanStrategy
     ClusteringPlanStrategy strategy = (ClusteringPlanStrategy)
         ReflectionUtils.loadClass(ClusteringPlanStrategy.checkAndGetClusteringPlanStrategy(config), table, context, config);
 
+    //核心
     return strategy.generateClusteringPlan();
   }
 
   @Override
   public Option<HoodieClusteringPlan> execute() {
+    // 根据配置 和策略决定要不要生成计划 （计划中 规划了如何进行 集群化操作）
     Option<HoodieClusteringPlan> planOption = createClusteringPlan();
+
     if (planOption.isPresent()) {
       HoodieInstant clusteringInstant =
           new HoodieInstant(HoodieInstant.State.REQUESTED, HoodieTimeline.REPLACE_COMMIT_ACTION, instantTime);
@@ -98,6 +105,8 @@ public class ClusteringPlanActionExecutor<T extends HoodieRecordPayload, I, K, O
             .setExtraMetadata(extraMetadata.orElse(Collections.emptyMap()))
             .setClusteringPlan(planOption.get())
             .build();
+
+        // 把  .requestedReplace  的文件 序列化 写到 hdfs文件系统中 ;  这点非常重要
         table.getActiveTimeline().saveToPendingReplaceCommit(clusteringInstant,
             TimelineMetadataUtils.serializeRequestedReplaceMetadata(requestedReplaceMetadata));
       } catch (IOException ioe) {

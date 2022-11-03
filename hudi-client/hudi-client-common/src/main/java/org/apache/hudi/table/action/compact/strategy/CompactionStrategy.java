@@ -74,6 +74,8 @@ public abstract class CompactionStrategy implements Serializable {
       List<HoodieCompactionOperation> operations, List<HoodieCompactionPlan> pendingCompactionPlans) {
     // Strategy implementation can overload this method to set specific compactor-id
     return HoodieCompactionPlan.newBuilder()
+            //orderAndFilter 方法会  根据  策略 和 正在进行的 压缩计划    做一次过滤
+            // 需要用户仔细考虑
         .setOperations(orderAndFilter(writeConfig, operations, pendingCompactionPlans))
         .setVersion(CompactionUtils.LATEST_COMPACTION_METADATA_VERSION).build();
   }

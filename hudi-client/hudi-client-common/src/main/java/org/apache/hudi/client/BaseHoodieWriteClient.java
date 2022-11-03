@@ -1338,12 +1338,12 @@ public abstract class BaseHoodieWriteClient<T extends HoodieRecordPayload, I, K,
       case ARCHIVE:
         LOG.info("Scheduling archiving is not supported. Skipping.");
         return Option.empty();
-      case CLUSTER:
+      case CLUSTER: // 只有cow 能调度 集群化
         LOG.info("Scheduling clustering at instant time :" + instantTime);
         Option<HoodieClusteringPlan> clusteringPlan = createTable(config, hadoopConf)
             .scheduleClustering(context, instantTime, extraMetadata);
         return clusteringPlan.isPresent() ? Option.of(instantTime) : Option.empty();
-      case COMPACT:
+      case COMPACT: // 只有mor 能调度压缩
         LOG.info("Scheduling compaction at instant time :" + instantTime);
         Option<HoodieCompactionPlan> compactionPlan = createTable(config, hadoopConf)
             .scheduleCompaction(context, instantTime, extraMetadata);

@@ -66,6 +66,7 @@ public abstract class PartitionAwareClusteringPlanStrategy<T extends HoodieRecor
     return filteredPartitions;
   }
 
+  // 生成 clustring 计划的 模版方法
   @Override
   public Option<HoodieClusteringPlan> generateClusteringPlan() {
     HoodieTableMetaClient metaClient = getHoodieTable().getMetaClient();
@@ -73,9 +74,10 @@ public abstract class PartitionAwareClusteringPlanStrategy<T extends HoodieRecor
     HoodieWriteConfig config = getWriteConfig();
     List<String> partitionPaths = FSUtils.getAllPartitionPaths(getEngineContext(), config.getMetadataConfig(), metaClient.getBasePath());
 
-    // get matched partitions if set
+    // 如果你配置了对 指定的分区做clustering 化 , 拿到匹配的分区  （正则匹配）
     partitionPaths = getMatchedPartitions(config, partitionPaths);
-    // filter the partition paths if needed to reduce list status
+
+    // 按照用户配置的ClusteringPlanPartitionFilterMode  拿到想要的分区  （ RECENT_DAYS  SELECTED_PARTITIONS ）
     partitionPaths = filterPartitionPaths(partitionPaths);
 
     if (partitionPaths.isEmpty()) {
@@ -88,11 +90,14 @@ public abstract class PartitionAwareClusteringPlanStrategy<T extends HoodieRecor
             partitionPaths,
             partitionPath -> {
               List<FileSlice> fileSlicesEligible = getFileSlicesEligibleForClustering(partitionPath).collect(Collectors.toList());
-              return buildClusteringGroupsForPartition(partitionPath, fileSlicesEligible).limit(getWriteConfig().getClusteringMaxNumGroups());
+              // 各子类 有自己的实现 , 每个组要大约 处理一个G 的数据
+              return buildClusteringGroupsForPartition(partitionPath, fileSlicesEligible)
+                      //拿到前 n个
+                      .limit(getWriteConfig().getClusteringMaxNumGroups());//hoodie.clustering.plan.strategy.max.num.groups 默认30
             },
             partitionPaths.size())
         .stream()
-        .limit(getWriteConfig().getClusteringMaxNumGroups())
+        .limit(getWriteConfig().getClusteringMaxNumGroups()) // 默认只取 前 30个
         .collect(Collectors.toList());
 
     if (clusteringGroups.isEmpty()) {
@@ -107,7 +112,7 @@ public abstract class PartitionAwareClusteringPlanStrategy<T extends HoodieRecor
 
     return Option.of(HoodieClusteringPlan.newBuilder()
         .setStrategy(strategy)
-        .setInputGroups(clusteringGroups)
+        .setInputGroups(clusteringGroups) //clusteringGroups 可以认为是 事前 对集群化操作的规划
         .setExtraMetadata(getExtraMetadata())
         .setVersion(getPlanVersion())
         .setPreserveHoodieMetadata(getWriteConfig().isPreserveHoodieCommitMetadataForClustering())

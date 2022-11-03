@@ -287,6 +287,7 @@ public class HoodieFlinkCopyOnWriteTable<T extends HoodieRecordPayload>
   }
 
   @Override
+  // 只有 copy On write 表 才能 调度集群化 （一定要注意）
   public Option<HoodieClusteringPlan> scheduleClustering(final HoodieEngineContext context, final String instantTime, final Option<Map<String, String>> extraMetadata) {
     return new ClusteringPlanActionExecutor<>(context, config, this, instantTime, extraMetadata).execute();
   }
@@ -401,7 +402,7 @@ public class HoodieFlinkCopyOnWriteTable<T extends HoodieRecordPayload>
             + "columns are disabled. Please choose the right key generator if you wish to disable meta fields.", e);
       }
     }
-    if (requireSortedRecords()) {
+    if (requireSortedRecords()) { //只有 hfile 才排序
       return new HoodieSortedMergeHandle<>(config, instantTime, this, keyToNewRecords, partitionPath, fileId,
           dataFileToBeMerged, taskContextSupplier, keyGeneratorOpt);
     } else {

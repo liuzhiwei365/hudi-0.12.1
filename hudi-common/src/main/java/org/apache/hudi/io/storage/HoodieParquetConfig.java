@@ -28,9 +28,9 @@ import org.apache.parquet.hadoop.metadata.CompressionCodecName;
 public class HoodieParquetConfig<T> {
   private final T writeSupport;
   private final CompressionCodecName compressionCodecName;
-  private final int blockSize;
-  private final int pageSize;
-  private final long maxFileSize;
+  private final int blockSize;//hoodie.parquet.block.size
+  private final int pageSize;//hoodie.parquet.page.size
+  private final long maxFileSize; //hoodie.parquet.max.file.size
   private final Configuration hadoopConf;
   private final double compressionRatio;
   private final boolean dictionaryEnabled;

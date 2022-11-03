@@ -98,6 +98,7 @@ public class HoodieRowDataCreateHandle implements Serializable {
               table.getPartitionMetafileFormat());
       partitionMetadata.trySave(taskPartitionId);
       createMarkerFile(partitionPath, FSUtils.makeBaseFileName(this.instantTime, getWriteToken(), this.fileId, table.getBaseFileExtension()));
+      // 该 fileWriter 内部含有bloom 过滤器
       this.fileWriter = createNewFileWriter(path, table, writeConfig, rowType);
     } catch (IOException e) {
       throw new HoodieInsertException("Failed to initialize file writer for path " + path, e);

@@ -205,6 +205,8 @@ public class ClusteringOperator extends TableStreamOperator<ClusteringCommitEven
     boolean hasLogFiles = clusteringOps.stream().anyMatch(op -> op.getDeltaFilePaths().size() > 0);
 
     Iterator<RowData> iterator;
+
+    // 这里把 多个文件组的数据 合并成一个迭代器的数据 （注意）, 一般情况下不会有 log文件，因为现在不支持 mor 的集群化操作
     if (hasLogFiles) {
       // if there are log files, we read all records into memory for a file group and apply updates.
       iterator = readRecordsForGroupWithLogs(clusteringOps, instantTime);
@@ -215,8 +217,10 @@ public class ClusteringOperator extends TableStreamOperator<ClusteringCommitEven
 
     RowDataSerializer rowDataSerializer = new RowDataSerializer(rowType);
 
+    //如果配置了 clustering.plan.strategy.sort.columns ，就会排序
     if (this.sortClusteringEnabled) {
       BinaryExternalSorter sorter = initSorter();
+      // 先把数据全部写入排序器中,会内部自动排好序
       while (iterator.hasNext()) {
         RowData rowData = iterator.next();
         BinaryRowData binaryRowData = rowDataSerializer.toBinaryRow(rowData).copy();
@@ -225,6 +229,7 @@ public class ClusteringOperator extends TableStreamOperator<ClusteringCommitEven
 
       BinaryRowData row = binarySerializer.createInstance();
       while ((row = sorter.getIterator().next(row)) != null) {
+        // 再 用 BulkInsertWriterHelper 去写拍好序的数据
         writerHelper.write(row);
       }
       sorter.close();
@@ -235,6 +240,9 @@ public class ClusteringOperator extends TableStreamOperator<ClusteringCommitEven
     }
 
     List<WriteStatus> writeStatuses = writerHelper.getWriteStatuses(this.taskID);
+
+
+    //一个ClusteringPlanEvent事件 与 一个 ClusteringCommitEvent 事件 一一对应
     collector.collect(new ClusteringCommitEvent(instantTime, writeStatuses, this.taskID));
     writerHelper.close();
   }

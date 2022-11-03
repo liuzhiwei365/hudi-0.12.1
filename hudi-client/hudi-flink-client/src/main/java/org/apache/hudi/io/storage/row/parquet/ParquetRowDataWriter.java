@@ -80,6 +80,7 @@ public class ParquetRowDataWriter {
    *
    * @param record Contains the record that is going to be written.
    */
+  // 调用parquet 底层api 去写
   public void write(final RowData record) {
     recordConsumer.startMessage();
     for (int i = 0; i < filedWriters.length; i++) {
